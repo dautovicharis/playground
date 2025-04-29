@@ -1,4 +1,4 @@
-package com.harisdautovic.sdk.ui.theme
+package com.harisdautovic.demo.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

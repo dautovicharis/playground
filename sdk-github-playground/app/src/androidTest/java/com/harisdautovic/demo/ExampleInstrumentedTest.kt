@@ -1,4 +1,4 @@
-package com.harisdautovic.sdk
+package com.harisdautovic.demo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
