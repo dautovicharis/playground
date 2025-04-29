@@ -25,4 +25,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "sdk-github-playground"
 include(":app")
-//include(":sdk")
+include(":sdk")
