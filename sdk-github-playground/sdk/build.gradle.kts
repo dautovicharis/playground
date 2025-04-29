@@ -17,7 +17,7 @@ kotlin {
 
 group = "com.harisdautovic"
 version = "0.0.3"
-val artifactId = "github-playground-sdk"
+val sdkArtifactId = "github-playground-sdk"
 
 publishing {
     publications {
@@ -26,7 +26,7 @@ publishing {
 
             // Use the project's group, artifactId and version
             groupId = project.group.toString()
-            artifactId = artifactId
+            artifactId = sdkArtifactId
             version = project.version.toString()
 
             pom {
