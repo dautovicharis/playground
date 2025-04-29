@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "com.harisdautovic",
-    "module": "sdk",
+    "module": "github-playground-sdk",
     "version": "0.0.3",
     "attributes": {
       "org.gradle.status": "release"
@@ -36,13 +36,13 @@
       ],
       "files": [
         {
-          "name": "sdk-0.0.3.jar",
-          "url": "sdk-0.0.3.jar",
+          "name": "github-playground-sdk-0.0.3.jar",
+          "url": "github-playground-sdk-0.0.3.jar",
           "size": 1411,
-          "sha512": "cd58062e7054a618e054f31fb1e215451c8b6a688bd0b80576c5e27da7dad39275d0f98d7aff4f85051d319b116725d85afcb38d2a3985f4b7cee246c05e657a",
-          "sha256": "234a080b4580bc4e7a8f134b7552a18b9bad4968f974b9085c066f790bf41891",
-          "sha1": "5a0f8dafea0d33a30ad68c383069b990c5ed4018",
-          "md5": "7f7590b9d2953238e368708c07bee74e"
+          "sha512": "1f6462f843dcaa053572e18025d754d4cac14ed33eb107bf1f0c8f07ad3401c224048bfd8db4b794ea7b774054940b43b3b260fa32591c287b5c2d99783fc6f6",
+          "sha256": "126c2f2d6bb647c6f1c1c75f549780a4a1f37ebf8ad3a7871f698ee48bccdc14",
+          "sha1": "abb69bd2c572ea5b1e642c3d28053110d896a330",
+          "md5": "4fe370194d7f259097e5ed9dccfa18b0"
         }
       ]
     },
@@ -68,13 +68,13 @@
       ],
       "files": [
         {
-          "name": "sdk-0.0.3.jar",
-          "url": "sdk-0.0.3.jar",
+          "name": "github-playground-sdk-0.0.3.jar",
+          "url": "github-playground-sdk-0.0.3.jar",
           "size": 1411,
-          "sha512": "cd58062e7054a618e054f31fb1e215451c8b6a688bd0b80576c5e27da7dad39275d0f98d7aff4f85051d319b116725d85afcb38d2a3985f4b7cee246c05e657a",
-          "sha256": "234a080b4580bc4e7a8f134b7552a18b9bad4968f974b9085c066f790bf41891",
-          "sha1": "5a0f8dafea0d33a30ad68c383069b990c5ed4018",
-          "md5": "7f7590b9d2953238e368708c07bee74e"
+          "sha512": "1f6462f843dcaa053572e18025d754d4cac14ed33eb107bf1f0c8f07ad3401c224048bfd8db4b794ea7b774054940b43b3b260fa32591c287b5c2d99783fc6f6",
+          "sha256": "126c2f2d6bb647c6f1c1c75f549780a4a1f37ebf8ad3a7871f698ee48bccdc14",
+          "sha1": "abb69bd2c572ea5b1e642c3d28053110d896a330",
+          "md5": "4fe370194d7f259097e5ed9dccfa18b0"
         }
       ]
     },
@@ -88,13 +88,13 @@
       },
       "files": [
         {
-          "name": "sdk-0.0.3-javadoc.jar",
-          "url": "sdk-0.0.3-javadoc.jar",
+          "name": "github-playground-sdk-0.0.3-javadoc.jar",
+          "url": "github-playground-sdk-0.0.3-javadoc.jar",
           "size": 261,
-          "sha512": "dd7cd0414fd46303585d5565bc1226ff2cb168f09fedec512c903ea6840a709a4b61737a20df37bcaa9969e56e3a73e192fec7025ec9faa2110b5e8dce2befaa",
-          "sha256": "7eed0b3d0a2a594ce96e2192041d69587f7bcaacf7801dfc8dc99045220e37a3",
-          "sha1": "74e59fd9fe79854bcd349edaed9744afdd6c01a4",
-          "md5": "a8c6de04e71f6b2aea1e53f402629170"
+          "sha512": "de9186556d48b1fce327767354a2fa58b98d739672285c939dd08e020fe28c2667d89acf4837e6c6f9a6d421b776b7c8b77f03f9f8a84140d9f7ee4766a12eef",
+          "sha256": "0b848e86b182d275c7007e5c7fa7fd24c816b83fb7587c6874de6caf8a07a5b4",
+          "sha1": "787c9ccd7205bfd1746ec7bbcf2af9a4d3a6e9d5",
+          "md5": "cb66e81b4df7b4587f8e2613467ea8d1"
         }
       ]
     },
@@ -108,13 +108,13 @@
       },
       "files": [
         {
-          "name": "sdk-0.0.3-sources.jar",
-          "url": "sdk-0.0.3-sources.jar",
+          "name": "github-playground-sdk-0.0.3-sources.jar",
+          "url": "github-playground-sdk-0.0.3-sources.jar",
           "size": 857,
-          "sha512": "68822d83f62391ced9ac6df7ccbae6c466be8fcbf0171134c14e5634daebe3841a4fd587a321b9680a0e9d5b2658542f18d5d3cff9ce8c94a559abb2b57b780c",
-          "sha256": "a48df10e2442285ed6ae172fac3d5c3787c8bccf1b0a472a5ae330c28b69fda0",
-          "sha1": "f3b2463f4dfebee7e42bb64d6ffdcb4fecf2b7f3",
-          "md5": "a08edfdaf7f8759ad1961bbd8d4474dc"
+          "sha512": "31c3e85a5952005fbf42568440dfad3c2488980eaf00890c08b005ca8b7398346389fa96e4c6ad6f73ccaa1e4169d60bbc4573e34e89b48f90e54ef3e4afb3b7",
+          "sha256": "2115adbb2918d03ae3d136331828b4543b75c5446eae5e99822fe2046f449b00",
+          "sha1": "705d2413403c353db7ef8a5653add2d8e00fb427",
+          "md5": "dd777c288b03fe3a89d9f83f06d3c436"
         }
       ]
     }
