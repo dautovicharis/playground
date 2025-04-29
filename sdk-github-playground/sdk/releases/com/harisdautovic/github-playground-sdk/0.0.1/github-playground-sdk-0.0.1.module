@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.harisdautovic",
+    "module": "github-playground-sdk",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "github-playground-sdk-0.0.1.jar",
+          "url": "github-playground-sdk-0.0.1.jar",
+          "size": 1401,
+          "sha512": "805813449867766241871c73477883ce1702e65bb307ddccaa36a8c1c2999f7418484bcc6b9ea6b6f638524c367d89dbcdd47a8a3bac40d216742db65c964230",
+          "sha256": "a6a67b5b0660549b7338768fbf8f585608b1a3433412700ac9430a377d47ac08",
+          "sha1": "c150798d63461b174b7d7b9fec31ce599e270da0",
+          "md5": "d5db1b2683319e4727bc1bdc087107c4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "github-playground-sdk-0.0.1.jar",
+          "url": "github-playground-sdk-0.0.1.jar",
+          "size": 1401,
+          "sha512": "805813449867766241871c73477883ce1702e65bb307ddccaa36a8c1c2999f7418484bcc6b9ea6b6f638524c367d89dbcdd47a8a3bac40d216742db65c964230",
+          "sha256": "a6a67b5b0660549b7338768fbf8f585608b1a3433412700ac9430a377d47ac08",
+          "sha1": "c150798d63461b174b7d7b9fec31ce599e270da0",
+          "md5": "d5db1b2683319e4727bc1bdc087107c4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "github-playground-sdk-0.0.1-javadoc.jar",
+          "url": "github-playground-sdk-0.0.1-javadoc.jar",
+          "size": 261,
+          "sha512": "17d57f8d21edf5fdb27e91a89fe980279cdce914610001719065c681cc68fceb4543153e9aeb4222669600b2b8c394d73dc077b9e08358d2b4a5f302a0409a9a",
+          "sha256": "ca65018c948bd22e130672723ae422e4cf986101b191b91457f93f402dd846b4",
+          "sha1": "8eb1ce4c9311348692255fe0fb9f6e3a19fde5cc",
+          "md5": "82d275bd4676c9d1e356b05e7216f717"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "github-playground-sdk-0.0.1-sources.jar",
+          "url": "github-playground-sdk-0.0.1-sources.jar",
+          "size": 846,
+          "sha512": "9e566a7423acf32f59d3a72767c7aa0cb0b6403fcd43812554eacf8c3932a86d3740dad5a7c3f780297e44768efa56e04688b0f110733deb865733565f73362e",
+          "sha256": "7b6797ba5e9287739b4830b2a20113e39162f9e5c30d7ede777306a70789b1fe",
+          "sha1": "a6a20c9449d0efe067df5471738a05e59e112e34",
+          "md5": "66a6f343e9cd216aebeacb84c346c3d9"
+        }
+      ]
+    }
+  ]
+}
