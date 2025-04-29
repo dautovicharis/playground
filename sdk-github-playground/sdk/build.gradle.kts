@@ -25,7 +25,7 @@ publishing {
 
             groupId = "com.harisdautovic"
             artifactId = "github-playground-sdk"
-            version = "0.0.1"
+            version = "0.0.2"
 
             pom {
                 name.set("GitHub Playground SDK")
