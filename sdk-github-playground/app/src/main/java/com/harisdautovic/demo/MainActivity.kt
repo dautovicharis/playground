@@ -1,4 +1,4 @@
-package com.harisdautovic.sdk
+package com.harisdautovic.demo
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.harisdautovic.sdk.ui.theme.SdkgithubplaygroundTheme
+import com.harisdautovic.sdk.GithubPlaygroundSdk
+import com.harisdautovic.demo.ui.theme.SdkgithubplaygroundTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +22,6 @@ class MainActivity : ComponentActivity() {
             SdkgithubplaygroundTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -31,9 +31,9 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Greeting(modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = GithubPlaygroundSdk().helloFromSdk(),
         modifier = modifier
     )
 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     SdkgithubplaygroundTheme {
-        Greeting("Android")
+        Greeting()
     }
 }

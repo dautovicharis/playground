@@ -1,4 +1,4 @@
-package com.harisdautovic.sdk
+package com.harisdautovic.demo
 
 import org.junit.Test
 
