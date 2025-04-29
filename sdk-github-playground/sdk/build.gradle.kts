@@ -16,16 +16,18 @@ kotlin {
 }
 
 group = "com.harisdautovic"
-version = "0.0.1"
+version = "0.0.3"
+val artifactId = "github-playground-sdk"
 
 publishing {
     publications {
         create<MavenPublication>("sdk") {
             from(components["java"])
 
-            groupId = "com.harisdautovic"
-            artifactId = "github-playground-sdk"
-            version = "0.0.2"
+            // Use the project's group, artifactId and version
+            groupId = project.group.toString()
+            artifactId = artifactId
+            version = project.version.toString()
 
             pom {
                 name.set("GitHub Playground SDK")
