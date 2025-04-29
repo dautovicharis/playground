@@ -35,16 +35,11 @@ dependencies {
 }
 ```
 
-## SDK Features
-
-The SDK currently provides a simple method:
+## How to use
 
 ```kotlin
-// Create an instance of the SDK
 val sdk = GithubPlaygroundSdk()
-
-// Use the SDK
-val message = sdk.helloFromSdk() // Returns "Hello from SDK"
+val message = sdk.helloFromSdk()
 ```
 
 ## Releasing a New Version
@@ -56,7 +51,7 @@ To release a new version of the SDK:
 ```kotlin
 group = "com.harisdautovic"
 version = "0.0.2" // Change this to the new version
-val artifactId = "github-playground-sdk"
+val sdkArtifactId = "github-playground-sdk"
 ```
 
 The publication block will automatically use this version.
